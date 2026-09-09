@@ -1,0 +1,77 @@
+# --- Working files, deliberately not published ---
+# These exist to drive my own development, not to explain the code.
+CONTEXT.md
+TECH_SPEC.md
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Byte-compiled / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Secrets and config ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# --- Market data and generated output ---
+# Nothing here is committed. Data is regenerated from a fixed seed.
+data/raw/
+data/processed/
+data/cache/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite3
+
+# --- Trade logs and account exports ---
+trades/
+*trade_log*
+*account*
+*statement*
+
+# --- Plots and reports ---
+output/
+figures/
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Empty entry point placeholder, nothing to publish yet ---
+main.py

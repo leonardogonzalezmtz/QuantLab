@@ -1,0 +1,6 @@
+# Derived from the actual imports in data/data_loader.py
+# (pandas, numpy — datetime is stdlib and needs no entry)
+# Lower bounds match the versions this was developed and tested against.
+
+numpy>=2.0
+pandas>=2.2
