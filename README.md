@@ -82,6 +82,6 @@ The phases after four depend on data this repository does not have, and the plan
 
 ## How this was built
 
-I built this with AI assistance and I am working through the underlying mathematics now, so I can defend every line rather than just run it. The measurements in the limitations section are mine, produced by instrumenting the code and checking what it actually does against what the comments claim it does. I would rather ship a repository that names its own gaps than one that hides them.
+Built with AI assistance; the measurements in the limitations section are my own, produced by instrumenting the code and checking what it does against what the comments claim. I'd rather publish a repository that names its own gaps than one that hides them.
 
 Leonardo González Martínez — Mechatronics Engineering, Tecnológico de Monterrey
